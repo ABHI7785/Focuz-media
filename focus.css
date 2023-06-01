@@ -1,0 +1,81 @@
+body{margin: 0 auto; padding: 0 auto;}
+.bg-black{
+    background: black;
+
+}
+body{
+    font-family: 'Fira Sans', sans-serif;
+}
+.carousel-indicators button{display:none;}
+
+.about_section p{
+    font-size: 16px;
+    line-height: 28px;
+
+}
+.about_section h3{
+    font-size: 40px;
+}
+.carousel-caption h2{
+    font-size: 48px;
+    line-height: auto;
+}
+.carousel-caption .btn-outline-light{
+    font-size: 28px;
+    line-height: normal;
+
+}
+.service_section h3{
+    font-size: 40px;
+}
+.service_box h4{
+    font-size: 24px;
+}
+.contact_section{
+    background-image: url(./images/footer-bk.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.address_sec p{
+    font-size: 16px;
+    line-height: 22px;
+}
+textarea.form-control {
+    height: 124px;
+}
+@media(max-width:991px){
+    .carousel-caption.d-none.d-sm-block h2 {
+        font-size: 36px;
+    }
+}
+@media(max-width:767px){
+    .carousel-caption.d-none.d-sm-block h2 {
+        font-size: 20px;
+    }
+
+    a.navbar-brand img {
+        width: 120px;
+    }
+    .address_sec p {
+        font-size: 16px;
+        line-height: 22px;
+        text-align: center;
+    }
+}
+
+#myBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+
